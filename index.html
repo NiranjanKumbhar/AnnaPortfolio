@@ -9,6 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/live-resume.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNMVC1Y5F8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MNMVC1Y5F8');
+    </script>
+
 </head>
 
 <body>
@@ -16,11 +27,11 @@
         <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
             SHARE</button>
         <nav class="collapsible-nav" id="collapsible-nav">
-            <a href="index.html" class="nav-link active">HOME</a>
-            <a href="resume.html" class="nav-link">RESUME</a>
-            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-            <a href="blog.html" class="nav-link">BLOG</a>
-            <a href="contact.html" class="nav-link">CONTACT</a>
+            <a href="#home" class="nav-link active">HOME</a>
+            <a href="#services" class="nav-link">SERVICES</a>
+            <a href="#clients" class="nav-link">CLIENTS</a>
+            <a href="#achievement" class="nav-link">ACHIEVEMENTS</a>
+            <a href="#testimonial" class="nav-link">TESTIMONIAL</a>
         </nav>
         <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
             data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
@@ -74,8 +85,8 @@
             </div>
         </aside>
         <main>
-            <section class="intro-section">
-                <h2 class="section-title">Hello, Ananya Sahu!</h2>
+            <section class="intro-section" id="home">
+                <h2 class="section-title">Hello, I am Ananya Sahu!</h2>
                 <p>I'm Full Stack Developer from India, working in in the information technology and services industry with over 5 years
                     of experience in web development. My job is to build website/applications so that it is functional 
                      user-friendly but at the same accessable round-the-clock.
@@ -94,7 +105,7 @@
                                 <h6 class="time-line-item-title">Bachelor In Information Technology</h6>
                                 <p class="time-line-item-subtitle">Uttar Pradesh Technical UNIVERSITY</p>
                                 <p class="time-line-item-content">Data Structures and Algorithms, Web Development, 
-                                    Software Enginnering, DataBases
+                                    Software Enginnering, Database
                                 </p>
                             </li>
                             <li class="time-line-item">
@@ -137,7 +148,7 @@
                     </div>
                 </div>
             </section>
-            <section class="services-section">
+            <section class="services-section" id="services">
                 <h6 class="section-subtitle">WHAT I DO</h6>
                 <h2 class="section-title">SERVICES</h2>
                 <div class="row">
@@ -236,7 +247,7 @@
                     </div>
                 </div>
             </section>
-            <section class="clients-section">
+            <section class="clients-section" id="clients">
                 <h6 class="section-subtitle">WHAT I DO</h6>
                 <h2 class="section-title">CLIENTS</h2>
                 <div class="client-logos-wrapper">
@@ -246,7 +257,7 @@
                     <div class="client-logo"><img src="assets/images/Clients_4.svg" alt="logo" class="w-100"></div>
                 </div>
             </section>
-            <section class="achievements-section">
+            <section class="achievements-section" id="achievement">
                 <h6 class="section-subtitle">WHAT I DO</h6>
                 <h2 class="section-title">ACHIEVEMENTS</h2>
                 <div class="achievement-cards-wrapper">
@@ -273,7 +284,7 @@
                     </div>
                 </div>
             </section>
-            <section class="testimonial-section">
+            <section class="testimonial-section" id="testimonial">
                 <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
